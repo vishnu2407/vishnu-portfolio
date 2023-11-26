@@ -57,7 +57,7 @@ const Navbar = () => {
       {/* Mobile menu */}
        <ul
         className={
-          !nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] text-white flex flex-col justify-center items-center'
+          (!nav) ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] text-white flex flex-col justify-center items-center'
         }
       >
         <li className='py-6 text-4xl'>
@@ -107,7 +107,7 @@ const Navbar = () => {
           <li className='w-[170px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-100 bg-[#e3e1e1]'>
             <a
               className='flex justify-between items-center w-full text-black-300'
-              href='https://drive.google.com/file/d/1twTrRj86jT52-Lg1HTXpgToUTinOQJKF/view?usp=sharing'> &nbsp; <BsFillPersonLinesFill size={30} />
+              href='https://drive.google.com/file/d/1tmburFsS47EcqPM7FAyJiTKT4bto8qgs/view?usp=sharing'> &nbsp; <BsFillPersonLinesFill size={30} />
             </a>
           </li>
           <li className='w-[170px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-100 bg-pink-500'>
