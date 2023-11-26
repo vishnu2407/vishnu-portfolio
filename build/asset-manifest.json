@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/VISHNU-REACT/vishnu-portfolio/static/css/main.3b88e5a0.css",
+    "main.js": "/VISHNU-REACT/vishnu-portfolio/static/js/main.2954f75c.js",
+    "static/media/vlogo.png": "/VISHNU-REACT/vishnu-portfolio/static/media/vlogo.e25cfc8ed4ef202b5b9e.png",
+    "static/media/React.png": "/VISHNU-REACT/vishnu-portfolio/static/media/React.692a7129afe9c5d20113.png",
+    "static/media/Python.png": "/VISHNU-REACT/vishnu-portfolio/static/media/Python.6a5cbc319ab3ddf8ef92.png",
+    "static/media/JAVA.png": "/VISHNU-REACT/vishnu-portfolio/static/media/JAVA.f4ea765878d6e68edefd.png",
+    "static/media/MySQL.png": "/VISHNU-REACT/vishnu-portfolio/static/media/MySQL.bdbd1eb709e4c13258d2.png",
+    "static/media/PostgreSQL.png": "/VISHNU-REACT/vishnu-portfolio/static/media/PostgreSQL.137221a503722cacd056.png",
+    "static/media/GitHub.png": "/VISHNU-REACT/vishnu-portfolio/static/media/GitHub.553c66159c5672f25df6.png",
+    "static/media/CSS.png": "/VISHNU-REACT/vishnu-portfolio/static/media/CSS.02d225c7df0b28341d8d.png",
+    "static/media/JavaScript.png": "/VISHNU-REACT/vishnu-portfolio/static/media/JavaScript.78206ba65e01c7d57080.png",
+    "static/media/HTML.png": "/VISHNU-REACT/vishnu-portfolio/static/media/HTML.cfb2ba4a6b1c3de295bc.png",
+    "index.html": "/VISHNU-REACT/vishnu-portfolio/index.html",
+    "main.3b88e5a0.css.map": "/VISHNU-REACT/vishnu-portfolio/static/css/main.3b88e5a0.css.map",
+    "main.2954f75c.js.map": "/VISHNU-REACT/vishnu-portfolio/static/js/main.2954f75c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b88e5a0.css",
+    "static/js/main.2954f75c.js"
+  ]
+}
