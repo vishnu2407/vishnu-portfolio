@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vishnu-portfolio/static/css/main.3b88e5a0.css",
-    "main.js": "/vishnu-portfolio/static/js/main.e48d1ae4.js",
+    "main.js": "/vishnu-portfolio/static/js/main.b64b2397.js",
     "static/media/vlogo.png": "/vishnu-portfolio/static/media/vlogo.e25cfc8ed4ef202b5b9e.png",
     "static/media/React.png": "/vishnu-portfolio/static/media/React.692a7129afe9c5d20113.png",
     "static/media/Python.png": "/vishnu-portfolio/static/media/Python.6a5cbc319ab3ddf8ef92.png",
@@ -14,10 +14,10 @@
     "static/media/HTML.png": "/vishnu-portfolio/static/media/HTML.cfb2ba4a6b1c3de295bc.png",
     "index.html": "/vishnu-portfolio/index.html",
     "main.3b88e5a0.css.map": "/vishnu-portfolio/static/css/main.3b88e5a0.css.map",
-    "main.e48d1ae4.js.map": "/vishnu-portfolio/static/js/main.e48d1ae4.js.map"
+    "main.b64b2397.js.map": "/vishnu-portfolio/static/js/main.b64b2397.js.map"
   },
   "entrypoints": [
     "static/css/main.3b88e5a0.css",
-    "static/js/main.e48d1ae4.js"
+    "static/js/main.b64b2397.js"
   ]
 }
