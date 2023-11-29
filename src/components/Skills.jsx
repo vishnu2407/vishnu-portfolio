@@ -1,21 +1,21 @@
 import React from 'react';
 
-import HTML from '../assets/HTML.png';
-import CSS from '../assets/CSS.png';
-import JavaScript from '../assets/JavaScript.png';
-import ReactImg from '../assets/React.png';
-import GitHub from '../assets/GitHub.png';
-import JAVA from '../assets/JAVA.png';
-import Python from '../assets/Python.png';
-import MySQL from '../assets/MySQL.png';
-import OracleSQL from '../assets/OracleSQL.png';
-import PostgreSQL from '../assets/PostgreSQL.png';
-import Tailwindcss from '../assets/Tailwindcss.png';
-import SpringBoot from '../assets/SpringBoot.png';
+import HTML from '../assets/Skills/HTML.png';
+import CSS from '../assets/Skills/CSS.png';
+import JavaScript from '../assets/Skills/JavaScript.png';
+import ReactImg from '../assets/Skills/React.png';
+import GitHub from '../assets/Skills/GitHub.png';
+import JAVA from '../assets/Skills/JAVA.png';
+import Python from '../assets/Skills/Python.png';
+import MySQL from '../assets/Skills/MySQL.png';
+import OracleSQL from '../assets/Skills/OracleSQL.png';
+import PostgreSQL from '../assets/Skills/PostgreSQL.png';
+import Tailwindcss from '../assets/Skills/Tailwindcss.png';
+import SpringBoot from '../assets/Skills/SpringBoot.png';
 
 const Skills = () => {
   return (
-    <div className='w-full h-screen bg-[#0a192f] text-gray-300'>
+    <div className='w-full h-screen bg-blue-100 text-black-300'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center w-full h-full'>
           <div name='skills'>
@@ -23,7 +23,7 @@ const Skills = () => {
               <p className='py-4'>These are the technologies I've worked with</p>
 
               <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-5 text-center py-8'>
-                <div className='shadow-md shadow-[#d4d6d8] hover:scale-110 duration-500'>
+                <div className='shadow-md hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={JAVA} alt="HTML icon"/>
                      <p className='my-4'>JAVA</p>
                 </div>
@@ -72,9 +72,7 @@ const Skills = () => {
                     <p className='my-4'>SpringBoot</p>
                 </div>
             </div>
-          </div>
-
-          
+          </div>  
       </div>
     </div>
   );
