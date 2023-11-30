@@ -13,7 +13,7 @@ const Tools = () => {
       <div className='max-w-[1000px] mx-auto  px-8 flex flex-col justify-center w-full h-full'>
           <div name='tools'>
               <p className='text-4xl font-bold inline border-b-4 border-[#ef7e7e]'>Tools:</p>
-              <p className='py-4'>These are the technologies I've worked with</p>
+              <p className='py-4'>These are the tools I've worked with</p>
 
               <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-5 text-center py-8'>
                 <div className='shadow-md shadow-[#d4d6d8] hover:scale-110 duration-500'>
