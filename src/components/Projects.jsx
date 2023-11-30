@@ -4,7 +4,7 @@ const Work = () => {
   
   return (
     <div name='projects' className='w-full md:h-screen text-black-300  bg-blue-100'>
-      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+      <div className='max-w-[1000px] mx-auto  px-8 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 text-black-300 border-[#ef7e7e]'>
           Projects:

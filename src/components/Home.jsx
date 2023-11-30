@@ -1,4 +1,6 @@
 import React from 'react';
+import {HiArrowNarrowRight} from 'react-icons/hi'
+import About from '../components/About';
 
 const Home = () => {
   return (
@@ -15,6 +17,14 @@ const Home = () => {
         <p className='text-[#6f84be] py-4 max-w-[700px]'>
         I’m focused on building responsive front-end web applications while learning back-end technologies.
         </p>
+        <div>
+          <button className='text-black-300 group border-2 hover:bg-[#ef7e7e] hover:text-white-300 px-4 py-3 my-8 mx-auto flex items-center'>
+            View Projects
+            <span onScroll={About} className='group-hover:rotate-90 duration-300'>
+            <HiArrowNarrowRight className='ml-2'/>
+            </span>
+          </button>
+        </div>
       </div>
     </div>
   );

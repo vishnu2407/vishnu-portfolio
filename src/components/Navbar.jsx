@@ -11,65 +11,67 @@ import { Link } from 'react-scroll';
 import vlogo from '../assets/Skills/vlogo.png';
 
 
-const Navbar = () => {
+const Navbar = () => { 
+  const value = true;
+  
   const [nav, setNav] = useState(false);
 
   const handleClick = () => {
     setNav(!nav);
   }
   const handleLogoClick =() => {
-    window.location.reload('Home');
+    window.location.reload();
   }
 
   return (
     <div className='fixed w-full h-[50px] flex justify-between center px-4 bg-blue-100 text-black z-300'>
       <div>
-        <img src={vlogo} alt='Logo' style={{ width: '60px', height: '60px'}} items-circle onClick={handleLogoClick} />
+        <img src={vlogo} alt='Logo' style={{ width: '60px', height: '60px'}} items-circle="true" value={value.toString()} onClick={handleLogoClick} />
       </div>
 
       {/* menu */}
       <ul className='hidden md:flex'>
         <li>
-          <Link to='home' smooth={true} duration={500}>
+          <Link to='home' smooth={true} duration={250}>
             Home
           </Link>
         </li>
         <li>
-          <Link to='about' smooth={true} duration={500}>
+          <Link to='about' smooth={true} duration={250}>
             About
           </Link>
         </li>
         <li>
-          <Link to='skills' smooth={true} duration={500}>
+          <Link to='skills' smooth={true} duration={250}>
             Skills
           </Link>
         </li>
         <li>
-          <Link to='Tools' smooth={true} duration={500}>
+          <Link to='Tools' smooth={true} duration={250}>
             Tools
           </Link>
         </li>
         <li>
-          <Link to='projects' smooth={true} duration={500}>
+          <Link to='projects' smooth={true} duration={250}>
             Projects
           </Link>
         </li>
         <li>
-          <Link to='contact' smooth={true} duration={500}>
+          <Link to='contact' smooth={true} duration={250}>
             Contact
           </Link>
         </li>
       </ul>
 
       {/* Hamburger*/}
-      <div onClick={handleClick} className='md:hidden z-1'>
+      <div onClick={handleClick} className='md:hidden z-10'>
         {!nav ? <FaBars /> : <FaTimes />}
       </div> 
 
       {/* Mobile menu */}
        <ul
         className={
-          (!nav) ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#3c80e7] text-white flex flex-col justify-center items-center'
+          (!nav) ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-blue-100 text-black flex flex-col justify-center items-center'
         }
       >
         <li className='py-6 text-4xl'>
@@ -88,6 +90,11 @@ const Navbar = () => {
           </Link>
         </li>
         <li className='py-6 text-4xl'>
+          <Link onClick={handleClick} to='tools' smooth={true} duration={500}>
+            Tools
+          </Link>
+          </li>
+        <li className='py-6 text-4xl'>
           <Link onClick={handleClick} to='projects' smooth={true} duration={500}>
             Projects
           </Link>
@@ -100,7 +107,7 @@ const Navbar = () => {
       </ul>
 
       {/* Social icons */}
-      <div className=' md:flex fixed flex-col top-[35%] left-0 right-10'>
+      <div className='hidden md:flex fixed flex-col top-[35%] left-0 right-10'>
         <ul>
           <li className='w-[170px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-100 bg-blue-600'>
             <a

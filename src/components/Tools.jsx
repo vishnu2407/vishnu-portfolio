@@ -10,8 +10,8 @@ const Tools = () => {
   return (
     <div className='w-full h-screen  bg-blue-100 text-black-300'>
       {/* Container */}
-      <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center w-full h-full'>
-          <div name='Tools'>
+      <div className='max-w-[1000px] mx-auto  px-8 flex flex-col justify-center w-full h-full'>
+          <div name='tools'>
               <p className='text-4xl font-bold inline border-b-4 border-[#ef7e7e]'>Tools:</p>
               <p className='py-4'>These are the technologies I've worked with</p>
 
