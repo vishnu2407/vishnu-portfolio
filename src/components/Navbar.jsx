@@ -126,7 +126,7 @@ const Navbar = () => {
           <li className='w-[170px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-100 bg-[#e3e1e1]'>
             <a
               className='flex justify-between items-center w-full text-black-300'
-              href='https://drive.google.com/file/d/1tmburFsS47EcqPM7FAyJiTKT4bto8qgs/view?usp=sharing'>&nbsp;<BsFillPersonLinesFill size={30} />
+              href='https://docs.google.com/document/d/18Hwv2adL4v2IEt_RQQM8saHEu_lRfwqj/edit?usp=sharing&ouid=111092641503739110457&rtpof=true&sd=true'>&nbsp;<BsFillPersonLinesFill size={30} />
             </a>
           </li>
           <li className='w-[170px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-100 bg-pink-500'>
