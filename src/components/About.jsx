@@ -8,7 +8,7 @@ const About = () => {
                     <p className="text-4xl font-bold inline border-b-4 border-[#ef7e7e]">
                         About Me:
                     </p>
-                    <p className='text-4xl py-10'>Passionate about crafting responsive front-end web applications, 
+                    <p className='text-3xl py-10'>Passionate about crafting responsive front-end web applications, 
                     I'm on a journey of continuous learning, exploring back-end technologies, including MySQL databases, 
                     and discovering how to create comprehensive and dynamic solutions. Excited to bridge the gap between 
                     seamless user interfaces and robust data management...</p>

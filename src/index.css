@@ -9,16 +9,10 @@
     @apply font-[Raleway];
     @apply bg-blue-100;
   }
+
   li{
     @apply px-4;
     @apply cursor-pointer;
     @apply top-10;
-  }
-}
-
-@layer components{
-  body{
-    @apply bg-blue-100;
-    @apply font-[Raleway];
   }
 }

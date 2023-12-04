@@ -23,13 +23,13 @@ const Navbar = () => {
   }
 
   return (
-    <div className='fixed w-full h-[50px] flex justify-between center px-4 bg-blue-100 text-black z-300'>
+    <div className='fixed w-full text-2xl h-[50px] flex justify-between center px-4 bg-blue-100 text-black z-300'>
       <div>
         <img src={vlogo} alt='Logo' style={{ width: '60px', height: '60px'}} items-circle="true" value={value.toString()} onClick={handleLogoClick} />
       </div>
 
       {/* menu */}
-      <ul className='hidden md:flex'>
+      <ul className='hidden md:flex md:space-x-4'>
         <li>
           <Link to='home' smooth={true} duration={250}>
             Home
