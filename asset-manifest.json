@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vishnu-portfolio/static/css/main.29a24c2a.css",
-    "main.js": "/vishnu-portfolio/static/js/main.2d103946.js",
+    "main.css": "/vishnu-portfolio/static/css/main.cdbc9e15.css",
+    "main.js": "/vishnu-portfolio/static/js/main.17546f2a.js",
     "static/media/vlogo.png": "/vishnu-portfolio/static/media/vlogo.e25cfc8ed4ef202b5b9e.png",
     "static/media/React.png": "/vishnu-portfolio/static/media/React.692a7129afe9c5d20113.png",
     "static/media/Python.png": "/vishnu-portfolio/static/media/Python.6a5cbc319ab3ddf8ef92.png",
@@ -13,11 +13,11 @@
     "static/media/JavaScript.png": "/vishnu-portfolio/static/media/JavaScript.78206ba65e01c7d57080.png",
     "static/media/HTML.png": "/vishnu-portfolio/static/media/HTML.cfb2ba4a6b1c3de295bc.png",
     "index.html": "/vishnu-portfolio/index.html",
-    "main.29a24c2a.css.map": "/vishnu-portfolio/static/css/main.29a24c2a.css.map",
-    "main.2d103946.js.map": "/vishnu-portfolio/static/js/main.2d103946.js.map"
+    "main.cdbc9e15.css.map": "/vishnu-portfolio/static/css/main.cdbc9e15.css.map",
+    "main.17546f2a.js.map": "/vishnu-portfolio/static/js/main.17546f2a.js.map"
   },
   "entrypoints": [
-    "static/css/main.29a24c2a.css",
-    "static/js/main.2d103946.js"
+    "static/css/main.cdbc9e15.css",
+    "static/js/main.17546f2a.js"
   ]
 }
