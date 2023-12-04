@@ -10,7 +10,6 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
 import vlogo from '../assets/Skills/vlogo.png';
 
-
 const Navbar = () => { 
   const value = true;
   
