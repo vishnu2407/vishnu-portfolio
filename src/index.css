@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
 
 @layer base {
@@ -9,7 +15,6 @@
     @apply font-[Raleway];
     @apply bg-blue-100;
   }
-
   li{
     @apply px-4;
     @apply cursor-pointer;

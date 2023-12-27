@@ -7,6 +7,8 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: ['float', 'padding', 'margin'],
+  plugins: [
+    require('tailwind-scrollbar'),
+  ],
 }
 
