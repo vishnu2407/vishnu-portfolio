@@ -14,9 +14,9 @@ function Navbar() {
 
   useEffect(() => {
     const handleResize = () => {
-    //   if (window.innerWidth <= 500) {
-    //     closeMenu;
-    //   }
+      if (window.innerWidth <= 500) {
+        closeMenu(); // Call closeMenu as a function
+      }
     };
 
     window.addEventListener("resize", handleResize);
@@ -27,15 +27,15 @@ function Navbar() {
   }, []);
 
   useEffect(() => {
-    // if (window.innerWidth <= 1200) {
-    //   closeMenu;
-    // }
+    if (window.innerWidth <= 1200) {
+      closeMenu(); // Call closeMenu as a function
+    }
   }, []);
 
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
-        <img alt="logo" className="logo" width={100} height={100} src="./img\vlogo.jpg"/>
+        <img alt="logo" className="logo" width={75} height={75} src="./img\vlogo.jpg"/>
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
@@ -57,7 +57,6 @@ function Navbar() {
               duration={500}
               to="heroSection"
               className="navbar--content"
-              
             >
               Home
             </Link>
@@ -121,6 +120,5 @@ function Navbar() {
     </nav>
   );
 }
-
 
 export default Navbar;
