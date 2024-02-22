@@ -1,0 +1,48 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/frontend.gif",
+      "title": "Front-End Development",
+      "description": "I do have experience with these front-end technologies like HTML, CSS, JavaScript, React, and more."
+    },
+    {
+      "id": "2",
+      "src": "./img/backend.gif",
+      "title": "Back-End Development",
+      "description": "I do have experience with these back-end technologies like Core Java, Spring Boot, and more."
+    },
+    {
+      "id": "3",
+      "size": "large",
+      "src": "./img/sql.png",
+      "title": "SQL Development",
+      "description": "I do have experience with these SQL Server technologies like MySQL, MS SQL Server, Oracle, and more."
+    }
+    
+  ],
+
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/Portfolio.png",
+      "title": "Portfolio",
+      "description": "This is my Personal Portfolio. I am currently working on this.",
+      "link": "View In Github"
+    },
+    {
+      "id": "2",
+      "src": "./img/Iphone.png",
+      "title": "Apple Clone",
+      "description": "This is my Internship project. I worked on this.",
+      "link": "View In Github"
+    },
+    {
+      "id": "3",
+      "src": "./img/Cookes.png",
+      "title": "Simple HTML & CSS",
+      "description": "This is my first HTML & CSS project. I worked on this.",
+      "link": "View In Github"
+    }
+  ]
+}
