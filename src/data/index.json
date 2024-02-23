@@ -8,6 +8,7 @@
     },
     {
       "id": "2",
+      "size": "large",
       "src": "./img/backend.gif",
       "title": "Back-End Development",
       "description": "I do have experience with these back-end technologies like Core Java, Spring Boot, and more."
@@ -17,7 +18,14 @@
       "size": "large",
       "src": "./img/sql.png",
       "title": "SQL Development",
-      "description": "I do have experience with these SQL Server technologies like MySQL, MS SQL Server, Oracle, and more."
+      "description": "I do have experience with these SQL Server technologies like MySQL, MS SQL Server, PostgreSQL, and more."
+    },
+    {
+      "id": "4",
+      "size": "small",
+      "src": "./img/GWRE.jpg",
+      "title": "Guidewire Developer",
+      "description": "I got trained on Guidewire in Claim Center, Policy Center for Insurance domain."
     }
     
   ],

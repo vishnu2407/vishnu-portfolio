@@ -785,4 +785,31 @@ input[type="checkbox"] {
   align-items: left;
 }
 
+.social-icon {
+  transition: transform 0.4s ease-in-out; /* Add transition for smooth effect */
+  color: #000;
+}
+
+.social-icon:hover {
+  transform: rotate(360deg); /* Rotate the icon by 180 degrees on hover */
+}
+
+.navbar--content {
+  transition: transform 0.4s ease-in-out; /* Add transition for smooth effect */
+  color: #0a0a0a;
+}
+
+.navbar--content:hover {
+  transform: rotate(360deg); /* Rotate the icon by 180 degrees on hover */
+}
+
+/* Assuming the class name of images is "portfolio-image" */
+
+/* Decrease the size of the image with id equal to 4 */
+div[data-id="4"] .skills--section--img {
+  width: 10px; /* Adjust width as needed */
+  height: 10px; /* Maintain aspect ratio */
+}
+
+
 /* Responsive Screens Ends*/

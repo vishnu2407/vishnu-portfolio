@@ -5,8 +5,8 @@ export default function MyPortfolio() {
     <section className="portfolio--section" id="MyPortfolio">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
-          <p className="sub--title">Recent Projects</p>
-          <h2 className="section--heading">My Portfolio</h2>
+          {/* <p className="sub--title">Recent Projects</p> */}
+          <h2 className="section--heading">My Projects</h2>
         </div>
         <div>
         <a href="https://github.com/vishnu2407?tab=repositories" className="btn btn-github">
