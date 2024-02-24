@@ -314,6 +314,7 @@ h2 {
 /* About Us */
 .about--section {
   display: grid;
+  margin-bottom: 0;
   padding: 133.3px 85.3px;
   align-items: center;
   gap: 114.6px;
@@ -328,6 +329,8 @@ h2 {
 /* My Portfolio Starts */
 .portfolio--section {
   display: flex;
+  margin-bottom: 0;
+  margin-top: 0;
   padding: 112px 85px;
   flex-direction: column;
   align-items: flex-start;
@@ -440,15 +443,21 @@ h2 {
 /* Testimonial Ends */
 .contact--section {
   display: flex;
-  padding: 150px 85px;
+  padding: 50px 0;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   text-align: center;
   gap: 64px;
 }
+.contact--section--title--social {
+  text-align: center;
+}
 .contact--form--container {
-  display: grid;
+  display: flex;
+  justify-content: auto;
+  align-items: center;
+  gap: 32px;
   grid-template-columns: auto;
   grid-template-rows: repeat(5, auto);
   width: auto;
@@ -576,6 +585,8 @@ input[type="checkbox"] {
   }
   .skills--section--title {
     font-size: 28px;
+    line-height: 35px;
+    margin-top: 0px;
     line-height: 40px;
   }
 }
@@ -626,6 +637,7 @@ input[type="checkbox"] {
   .footer--items > ul,
   .footer--content--container {
     display: flex;
+    margin-bottom: auto;
     flex-direction: column;
   }
   .skills--section,
@@ -633,10 +645,15 @@ input[type="checkbox"] {
   .hero--section--content,
   .hero--section--content--box {
     align-items: center;
+    margin-top: 0;
   }
   .portfolio--container-box {
     gap: 30px;
   }
+  .skills--section,
+.about--section {
+  padding-bottom: 0; /* Remove bottom padding */
+}
   .skills--section,
   .testimonial--section,
   .contact--section,
@@ -772,6 +789,7 @@ input[type="checkbox"] {
 .social-media-icons-horizontal li {
   margin-right: 1px; /* Adjust the spacing between icons */
   font-size: 50px;
+  margin: 0 10px;
   color: var(--darkblue);
   text-align: left;
   align-items: left;
@@ -787,10 +805,19 @@ input[type="checkbox"] {
 
 .social-icon {
   transition: transform 0.4s ease-in-out; /* Add transition for smooth effect */
-  color: #000;
+  color: #333;
+  padding-bottom: 0px;
+  justify-content: center;
+  height: 35px;
+  width: 25px;
+  align-items: bottom;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .social-icon:hover {
+  color: #007bff;
   transform: rotate(360deg); /* Rotate the icon by 180 degrees on hover */
 }
 

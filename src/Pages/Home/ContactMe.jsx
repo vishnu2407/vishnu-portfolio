@@ -6,7 +6,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 export default function ContactMe() {
   return (
     <section id="Contact" className="contact--section">
-      <hr className="divider" />
+      {/* <hr className="divider" /> */}
       <div className="contact--section--title--social">
         <h2 >Social's</h2>
       </div>

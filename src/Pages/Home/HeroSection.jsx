@@ -2,11 +2,12 @@ import { Link } from "react-scroll";
 import { useState } from "react";
 
 export default function HeroSection() {
-  const [navActive, setNavActive] = useState(false);
+  const [, setNavActive] = useState(false);
 
-  const toggleNav = () => {
-    setNavActive(!navActive);
-  };
+  // const toggleNav = () => {
+  //   setNavActive(!navActive);
+  //navActive
+  // };
 
   const closeMenu = () => {
     setNavActive(false);

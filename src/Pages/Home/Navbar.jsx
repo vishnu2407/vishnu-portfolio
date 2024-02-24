@@ -37,7 +37,7 @@ function Navbar() {
       <div>
         <img alt="logo" className="logo" width={75} height={75} src="./img\vlogo.jpg"/>
       </div>
-      <a
+      <a href="nothing"
         className={`nav__hamburger ${navActive ? "active" : ""}`}
         onClick={toggleNav}
       >
