@@ -9,10 +9,11 @@ export default function AboutMe() {
             {/* <p className="section--title">About</p> */}
             <h1 className="skills-section--heading">About Me</h1>
             <p className="hero--section-description">
-            In my current Company I work as a Java Backend Developer at Siritek Technologies Pvt. Ltd, 
-            I have been involved in enhancing the NXT-Base Application through backend development (Java) and SQL development. 
-            My experience includes designing robust server-side solutions, adhering to agile development methodologies, and implementing SDLC principles.
-             I have successfully optimized MySQL databases, resulting in increased user engagement and satisfaction, as well as a reduction in query execution time.
+            With 2+ years of specialized experience in the Software industry, I thrive in architecting resilient server-side solutions geared towards scalability and optimal performance.
+            My expertise extends to crafting streamlined insurance suites, bolstered by comprehensive training in Guidewire Policy Centre and Guidewire Claim Centre.
+            I am proficient in Java frameworks like Spring and Hibernate, and I engineer solutions that prioritize scalability, code readability, and project efficiency.
+            Continuously honing my skills in Data Structure (DS), I ensure our solutions remain at the forefront of innovation. Additionally, 
+            I am well-versed in Low-Level Design (LLD), ensuring meticulous planning and execution at every stage of development. 
             </p>
             <p className="hero--section-description">
             I am a passionate and dedicated learner who loves to explore new technologies and build web applications.

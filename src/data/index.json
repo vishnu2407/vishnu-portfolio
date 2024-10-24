@@ -4,21 +4,21 @@
       "id": "1",
       "src": "./img/frontend.gif",
       "title": "Front-End Development",
-      "description": "I do have experience with these front-end technologies like HTML, CSS, JavaScript, React, and more."
+      "description": "HTML, CSS, JavaScript, React, and more."
     },
     {
       "id": "2",
       "size": "large",
       "src": "./img/backend.gif",
       "title": "Back-End Development",
-      "description": "I do have experience with these back-end technologies like Core Java, Spring Boot, and more."
+      "description": "Core Java, Spring Framework, Hibernate, JPA, JDBC, DSA and more."
     },
     {
       "id": "3",
       "size": "large",
       "src": "./img/sql.png",
       "title": "SQL Development",
-      "description": "I do have experience with these SQL Server technologies like MySQL, MS SQL Server, PostgreSQL, and more."
+      "description": "MySQL, PostgreSQL and more."
     },
     {
       "id": "4",
