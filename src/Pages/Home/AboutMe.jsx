@@ -1,9 +1,9 @@
 export default function AboutMe() {
     return (
       <section id="AboutMe" className="about--section">
-        <div className="about--section--img">
+{/*         <div className="about--section--img">
           <img className="about--section--img" src="./img/Vvr.jpg" alt="About Me" />
-        </div>
+        </div> */}
         <div className="hero--section--content--box about--section--box">
           <div className="hero--section--content">
             {/* <p className="section--title">About</p> */}
