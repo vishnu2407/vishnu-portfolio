@@ -19,12 +19,12 @@ export default function HeroSection() {
         <div className="hero--section--content">
           <p className="section--title">Hey, I'm Vishnu</p>
           <h1 className="hero--section--title">
-            <span className="hero--section-title--color">Java Development</span>{" "}
+            <span className="hero--section-title--color">Software Developer</span>{" "}
             <br />
           </h1>
           <p className="hero--section-description">
-            As a Developer, I love to explore new technologies and build web applications,
-            always looking to upskill myself and contribute to the open source community.
+            As a Software Developer, I love to explore new technologies and build web applications,
+            always looking to upskill myself and contribute to the open-source community.
           </p>
         </div>
         <div style={{marginTop: "2rem"}} className="hero--section--btn">
