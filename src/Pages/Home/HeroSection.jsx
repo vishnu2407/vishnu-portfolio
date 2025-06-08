@@ -23,8 +23,8 @@ export default function HeroSection() {
             <br />
           </h1>
           <p className="hero--section-description">
-            I'm a Java Development, love to explore new technologies and build web applications,
-            always looking to Upskill myself and contribute to open source community.
+            As a Developer, I love to explore new technologies and build web applications,
+            always looking to upskill myself and contribute to the open source community.
           </p>
         </div>
         <div style={{marginTop: "2rem"}} className="hero--section--btn">
