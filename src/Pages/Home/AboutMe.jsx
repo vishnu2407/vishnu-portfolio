@@ -9,14 +9,9 @@ export default function AboutMe() {
             {/* <p className="section--title">About</p> */}
             <h1 className="skills-section--heading">About Me</h1>
             <p className="hero--section-description">
-            With 2+ years of specialized experience in the Software industry, I thrive in architecting resilient server-side solutions geared towards scalability and optimal performance.
-            My expertise extends to crafting streamlined insurance suites, bolstered by comprehensive training in Guidewire Policy Centre and Guidewire Claim Centre.
-            I am proficient in Java frameworks like Spring and Hibernate, and I engineer solutions that prioritize scalability, code readability, and project efficiency.
-            Continuously honing my skills in Data Structure (DS), I ensure our solutions remain at the forefront of innovation. Additionally, 
-            I am well-versed in Low-Level Design (LLD), ensuring meticulous planning and execution at every stage of development. 
-            </p>
-            <p className="hero--section-description">
-            I am a passionate and dedicated learner who loves to explore new technologies and build web applications.
+            Software Developer with 3 years of experience, including 1.5 years in Java and 1 year working with Guidewire for insurance applications. I build and support systems that help manage policies and 
+            process claims more efficiently. Skilled in using Java, Spring, MySQL and Guidewire tools like Policy Center, GOSU and workflows. I also make sure the systems run smoothly, fix issues, and improve performance. 
+            Always learning and focused on building reliable, fast, and easy-to-use software.
             </p>
           </div>
         </div>
